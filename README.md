@@ -1,6 +1,6 @@
 # Windows autologon
 
-[![Build Status](https://travis-ci.org/noma4i/puppet-windows_autologon.png?branch=master)](https://travis-ci.org/noma4i/puppet-windows_autologon)
+
 ##Overview
 
 Setting up autologon for selected user.
