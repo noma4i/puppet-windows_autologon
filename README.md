@@ -15,8 +15,13 @@ Puppet is not providing any extended features for windows and usualy is not able
 
 ###Install
 
-Git: `git clone git@github.com:noma4i/puppet-windows_autologon.git windows_autologon`
-> <font color='red'>**Make sure this module folder is named windows_autologon**</font>
+Git
+> `git clone git@github.com:noma4i/puppet-windows_autologon.git windows_autologon`
+
+or
+
+Puppet Module Tool:
+> `puppet module install noma4i/windows_autologon`
 
 ##Usage
 
