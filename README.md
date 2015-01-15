@@ -27,7 +27,7 @@ Puppet Module Tool:
 
 To set `Administrator` account as autologon:
 
-    auto_login { 'Administrator':
+    windows_autologon { 'Administrator':
       password => 'TRICKY_PASSWORD',
       count => '10',
     }
