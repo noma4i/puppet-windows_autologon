@@ -26,12 +26,12 @@ Puppet Module Tool:
 ##Usage
 
 To set `Administrator` account as autologon:
-
+````puppet
     windows_autologon { 'Administrator':
       password => 'TRICKY_PASSWORD',
       count => '10',
     }
-
+````
 
 Param `count` will set autologon count and will disable automatic logon feature after N times. If you skip it user will be not limited for autologon sessions.
 
