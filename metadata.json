@@ -1,0 +1,36 @@
+{
+  "name": "noma4i-windows_autologon",
+  "version": "0.1.1",
+  "author": "noma4i",
+  "summary": "Set a Windows Computer for automatic logon",
+  "license": "Apache-2.0",
+  "source": "https://github.com/noma4i/puppet-windows_autologon",
+  "project_page": "https://github.com/noma4i/puppet-windows_autologon",
+  "issues_url": "https://github.com/noma4i/puppet-windows_autologon/issues",
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.3.0 < 4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2008",
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2",
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "dependencies": [
+    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5 <5.0.0"}
+  ]
+}

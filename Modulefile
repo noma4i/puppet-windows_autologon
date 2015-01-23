@@ -1,7 +1,0 @@
-name    'noma4i/windows_autologon'
-version '0.0.4'
-author 'noma4i'
-license 'Apache-2.0'
-summary 'Set a Windows Computer for automatic logon.'
-project_page 'https://github.com/noma4i/puppet-windows_autologon'
-dependency    'joshcooper/powershell', '>=0.0.5'
